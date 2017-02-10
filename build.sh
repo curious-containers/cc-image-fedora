@@ -3,7 +3,7 @@
 REGISTRY_URL=docker.io/curiouscontainers/cc-image-fedora
 TAG=0.10
 
-docker pull docker.io/fedora:24
+docker pull docker.io/fedora:25
 docker pull ${REGISTRY_URL}
 docker build --no-cache=true -t ${REGISTRY_URL} .
 docker push ${REGISTRY_URL}
