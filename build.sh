@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 REGISTRY_URL=docker.io/curiouscontainers/cc-image-fedora
-TAG=0.10
+TAG=0.11
 
 docker pull docker.io/fedora:25
 docker pull ${REGISTRY_URL}
