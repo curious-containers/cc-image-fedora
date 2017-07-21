@@ -1,4 +1,4 @@
-FROM docker.io/fedora:25
+FROM docker.io/fedora:26
 
 RUN dnf install -y git gcc redhat-rpm-config python3-devel openssl-devel libffi-devel \
 && pip3 install --no-input --upgrade flask requests paramiko psutil pymongo gunicorn gevent \
